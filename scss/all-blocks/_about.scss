@@ -1,0 +1,79 @@
+.about {
+    margin-top: 160px;
+
+    &__info {
+        width: 541px;
+        height: 640px;
+        background-image: url(../../img/web.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 15px;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 2px;
+        padding-top: 273px;
+        padding-left: 137px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        padding-top: 24px;
+        padding-left: 172px;
+    }
+
+    &__icon {
+        transform: translate(365px, -22px);
+    }
+
+    &__div {
+        width: 541px;
+        height: 308px;
+        background-image: url(../../img/app.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 15px;
+        transform: translate(560px, -640px);
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: "Jost";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        letter-spacing: 2px;
+        padding-top: 107px;
+    }
+
+    &__infos {
+        width: 541px;
+        height: 308px;
+        background-image: url(../../img/graphic.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 15px;
+        transform: translate(560px, -618px);
+    }
+}

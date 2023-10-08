@@ -1,0 +1,68 @@
+.hero {
+    margin-top: 67px;
+    .container {
+        width: 1111px;
+        height: 640px;
+        background-image: url(../../img/Mask.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; 
+        padding-top: 145px;
+        padding-left: 50px;
+        width: 540px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-family: "Jost";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        padding-top: 11px;
+        padding-left: 50px;
+        width: 445px;
+    }
+
+    &__button {
+        margin: 0;
+        padding: 0;
+        color: #333136;
+        font-family: "Jost";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        background: #FFF;
+        padding: 18px 24px;
+        border: 1px solid #FFF;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    &__items {
+        margin-left: 170px;
+        margin-top: 148px;
+    }
+}
+
